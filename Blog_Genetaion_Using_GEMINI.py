@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.environ['GEMINI_API_KEY'] = 'AIzaSyAZF6RrIivArfNcwaKWfeGtjIU3BYWqJAE'
+os.environ['GEMINI_API_KEY'] = your_gemini_api_key
 
 import google.generativeai as genai
 from langchain.prompts import PromptTemplate
